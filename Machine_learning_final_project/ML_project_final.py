@@ -127,12 +127,3 @@ model.fit(X_train, Y_train,batch_size=128,epochs=2,verbose=1)
 for i in range(1,9):
     predictor(i)
     
-    '''
-    6 References
-    https://www.nist.gov/itl/iad/image-group/emnist-dataset 
-    http://cs231n.stanford.edu/reports/2017/pdfs/810.pdf 
-    https://github.com/rohit-vg/SVM-KNN-Face-Recognition/blob/master/faceRec.py 
-    https://github.com/siddhx/Deep-learning-python/blob/master/VGGnet_in_keras.ipynb 
-    https://www.google.com/patents/US5420403 http://www.kurzweiltech.com/kcp.html 
-    https://github.com/tesseractocr/tesseract/wiki/4.0-with-LSTM
-    '''
